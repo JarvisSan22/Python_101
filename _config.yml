@@ -1,0 +1,34 @@
+title: Python 101
+description: Comprehensive Python Programming Course
+theme: jekyll-theme-cayman
+
+# Multilingual settings
+languages:
+  - en
+  - ja
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Navigation
+header_pages:
+  - blog/en/index.md
+  - homework/en/index.md
+  - slides/en/index.md
+  - notebooks/en/index.md
+
+# GitHub Pages settings
+github:
+  is_project_page: true
+  repository_url: https://github.com/JarvisSan22/Python_101
+
+# Additional settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
